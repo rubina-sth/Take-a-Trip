@@ -171,6 +171,61 @@ h3 {
   animation: cloudAnimation 6s infinite alternate ease-in-out;
 }
 
+/* Benefits Section */
+
+.benefits-header {
+  background-color: rgb(39, 36, 36);
+  min-height: 30vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits-header h3 {
+  font-weight: 200;
+}
+
+.cards-container {
+  min-height: 70vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 15rem;
+  border-radius: 3rem;
+  flex: 1 1 15rem;
+  box-shadow: 0 0.5rem 1rem rgb(161, 159, 159);
+  margin: 1.5rem;
+}
+
+.icon {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  background-color: rgb(53, 60, 65);
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.card p {
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Animations */
+
 @keyframes cloudAnimation {
   from {
     transform: translate(10%);
